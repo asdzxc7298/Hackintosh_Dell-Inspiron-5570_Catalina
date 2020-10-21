@@ -37,4 +37,4 @@ Just delete your CLOVER directory in your EFI folder of your EFI partition, and 
 
 To install Catalina to your system, since this isn’t very well documented, download the Olarila image from here: http://www.mediafire.com/file/8paxpvkianhon4m/Olarila+Catalina+10.15.7.raw.bz2/file
 
-Decompress and apply that image to a flash drive of 16GB or more.  Then mount the EFI partition of the flash drive and delete everything on it, and then copy over all the files provided in the Olarila_Install_EFI folder in this repo.  This will successfully get you booting the installer
+Decompress and apply that image to a flash drive of 16GB or more.  Then mount the EFI partition of the flash drive and delete everything on it, and then copy over all the files provided in the Olarila_Install_EFI folder in this repo.  This will successfully get you booting the installer.
