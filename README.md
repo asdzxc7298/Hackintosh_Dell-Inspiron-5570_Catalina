@@ -28,6 +28,7 @@ Dell Inspiron 5570 with i5-8250U with 1920x1080 full HD display and 12GB of RAM 
 - Fn Keys—Volume + -, skip, play, pause, keyboard backlight, Display backlight dim and brighten, etc
 - CPU Management and Thermal Control (as far as I can tell, as the fan cuts on properly and adjust speeds as necessary)
 - SSD compatibility with no lag
+- with proper SMBIOS editing (easy to find here on GitHub), FaceTime, iMessage, iCloud, etc, all working perfectly
 
 
 ## I am very satisfied with this and how it runs on my laptop.  It works damn near to perfection, and will once my new M.2 wifi card gets here and I get continuity going.
