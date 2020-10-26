@@ -14,13 +14,14 @@ Dell Inspiron 5570 with i5-8250U with 1920x1080 full HD display and 12GB of RAM 
 
 ## What doesn’t work:
 
-- OEM supplied wifi card.
+- OEM supplied wifi card--bluetooth works
+- Waking from sleep on AC power
 
 
 ## What does work:
 
 - OEM bluetooth connection
-- Waking From Sleep
+- Waking From Sleep on battery
 - FileVault Encryption with APFS without boot lag
 - Ethernet
 - HDMI video and audio out
