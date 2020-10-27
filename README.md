@@ -1,6 +1,8 @@
 # Hackintosh_Dell-Inspiron-5570_Catalina
 EFI to boot macOS Catalina on a Dell Inspiron 5570
 
+https://www.youtube.com/watch?v=WRyRucc01pI&feature=youtu.be
+
 
 I do not take complete credit for this, but this is a piece-together from several sources littered around the internet.  There might be some things in here that are not necessary, but as I’ve slowly removed a few kexts, things start running less smoothly.  Experiment and let me know if you find something that needs to be addressed.
 
