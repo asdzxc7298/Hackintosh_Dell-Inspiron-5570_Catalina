@@ -1,5 +1,5 @@
 # Hackintosh_Dell-Inspiron-5570_Catalina
-EFI to boot macOS Catalina on a Dell Inspiron 5570
+EFI to run macOS Catalina on a Dell Inspiron 5570
 
 https://www.youtube.com/embed/WRyRucc01pI
 
@@ -21,6 +21,8 @@ Dell Inspiron 5570 with i5-8250U with 1920x1080 full HD display and 12GB of RAM 
 
 ## What does work:
 
+- Camera
+- USB
 - OEM bluetooth connection
 - Waking From Sleep on battery
 - FileVault Encryption with APFS without boot lag
@@ -43,22 +45,10 @@ Dell Inspiron 5570 with i5-8250U with 1920x1080 full HD display and 12GB of RAM 
 
 ## To Install Proper Clover for Dell Inspiron 5570
 
-- Just delete your CLOVER directory in your EFI folder of your EFI partition
-- copy the CLOVER directory from here to your EFI folder on your EFI partition  
-- after you get booted after making this change, or after you get installed, copy all kexts from the CLOVER/kexts/other to Library/Extensions and rebuild the permissions using Kext Utility--This is not necessary, but tends to help fix some things. I no longer have mine set up this way and everything is working just fine.
+- Mount your Hackintosh's EFI partition with Clover
+- Delete your CLOVER directory in your EFI folder of your EFI partition
+- Copy the CLOVER directory from here to your EFI folder on your EFI partition  
+- (Optional) After you get booted after making this change, or after you get installed, copy all kexts from the EFI/CLOVER/kexts/other to Library/Extensions and rebuild the permissions using Kext Utility--This is not necessary, but tends to help fix some things. I no longer have mine set up this way and everything is working just fine.
 
 
-## To install Catalina to your system (since this isn’t very well documented)
 
-- download the Olarila image from here: http://www.mediafire.com/file/8paxpvkianhon4m/Olarila+Catalina+10.15.7.raw.bz2/file
-- Decompress and apply that image to a flash drive of 16GB or more  
-- mount the EFI partition of the flash drive and delete everything on it
-- copy over all the files provided in the Olarila_Install_EFI folder in this repo  
-
-This will successfully get you booting the installer.
-
-
-## Post Install Power Management
-
-- to get sleep working without modding the BIOS and potentially bricking the device and making it incompatible with features of native Windows, some commands have to be run.
-- run each command in the .txt file included in POST_INSTALL, then restart.
