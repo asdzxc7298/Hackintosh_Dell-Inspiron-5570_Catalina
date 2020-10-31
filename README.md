@@ -1,3 +1,6 @@
+- I have a real Macbook which is what makes most of this possible, just fyi.
+- starting from scratch without one isn't impossible but not as simple, nor allows clean access to the Catalina installer
+
 # Hackintosh_Dell-Inspiron-5570_Catalina
 EFI to run macOS Catalina on a Dell Inspiron 5570
 
