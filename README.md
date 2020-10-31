@@ -2,11 +2,15 @@
 - starting from scratch without one isn't impossible but not as simple, nor allows clean access to the Catalina installer
 
 # Hackintosh_Dell-Inspiron-5570_Catalina
-EFI to run macOS Catalina on a Dell Inspiron 5570
 
-https://www.youtube.com/embed/WRyRucc01pI
+- EFI to run macOS Catalina on a Dell Inspiron 5570
 
-For an installer download my other repo: https://github.com/stayboogy/Installer_Dell-Inspiron-5570_Catalina
+- https://www.youtube.com/embed/WRyRucc01pI
+
+## Installer 
+
+- https://github.com/stayboogy/Installer_Dell-Inspiron-5570_Catalina
+
 
 I do not take complete credit for this, but this is a piece-together from several sources littered around the internet.  There might be some things in here that are not necessary, but as I’ve slowly removed a few kexts, things start running less smoothly.  Experiment and let me know if you find something that needs to be addressed.
 
@@ -46,7 +50,6 @@ Dell Inspiron 5570 with i5-8250U with 1920x1080 full HD display and 12GB of RAM 
 ## I am very satisfied with this and how it runs on my laptop.  It works damn near to perfection, and will once my new M.2 wifi card gets here and I get continuity going.
 
 ## SIP is disabled by default and unverified kexts are allowed and mounting of root filesystem as rw is possible and gatekeeper can be disabled.
-
 
 ## To Install Proper Clover for Dell Inspiron 5570
 
