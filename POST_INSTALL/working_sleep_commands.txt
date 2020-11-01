@@ -3,4 +3,4 @@ sudo pmset -a hibernatemode 3
 sudo pmset -a sms 0
 sudo pmset -a powernap 0
 sudo pmset -a proximitywake
-
+sudo pmset -a acwake 0
