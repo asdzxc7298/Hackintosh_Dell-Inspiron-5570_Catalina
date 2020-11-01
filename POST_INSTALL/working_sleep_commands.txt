@@ -1,6 +1,6 @@
-sudo pmset -a standbydelaylow 300\
-sudo pmset -a standby 1
-sudo pmset -a standbydelayhigh 600
-sudo pmset -a sleep 10
-sudo pmset -a autopoweroffdelay 40000
-sudo pmset -a hibernatemode 25
+sudo pmset -a standby 0
+sudo pmset -a hibernatemode 3
+sudo pmset -a sms 0
+sudo pmset -a powernap 0
+sudo pmset -a proximitywake
+
